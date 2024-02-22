@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-        wedding = new Date(2024, 2, 9, 18, 30, 0); // Año, mes (0-indexado), día, hora, minuto, segundo
+        wedding = new Date(2024, 9, 26, 17, 15, 0); // Año, mes (0-indexado), día, hora, minuto, segundo
     //end
     
     const countDown = wedding.getTime(),
